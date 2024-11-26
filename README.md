@@ -1,12 +1,46 @@
 # 04_Lung_Nodule_Segmentation
 
-![tree_image-0](https://github.com/user-attachments/assets/f1899150-a622-4b2d-b6a3-663e27150dd0)
-![tree_image-1](https://github.com/user-attachments/assets/5d74f149-064f-4464-a5f6-090355f8714a)
+      ./KTL_project_04_CT_Lung_Nodule_Segmentation/
+      |-- Code
+      |   |-- .ipynb_checkpoints
+      |   |   |-- 01.\ Training-checkpoint.ipynb
+      |   |   |-- 02.\ Evaluation-checkpoint.ipynb
+      |   |   |-- Preprocessing-checkpoint.py
+      |   |   `-- _utils_torch-checkpoint.py
+      |   |-- 01.\ Training.ipynb
+      |   |-- 02.\ Evaluation.ipynb
+      |   |-- Preprocessing.py
+      |   |-- __pycache__
+      |   |   |-- Preprocessing.cpython-39.pyc
+      |   |   |-- _utils_torch.cpython-39.pyc
+      |   |   |-- loss.cpython-39.pyc
+      |   |   |-- model_torch.cpython-39.pyc
+      |   |   `-- modules_torch.cpython-39.pyc
+      |   |-- _utils_torch.py
+      |   |-- loss.py
+      |   |-- model_torch.py
+      |   |-- modules_torch.py
+      |   `-- output
+      |       |-- model_final.pth
+      `-- Data
+          |-- RIDER-1129164940
+          |   |-- img.nii
+          |   `-- mask.nii
+          |-- RIDER-1225316081
+          |   |-- img.nii
+          |   `-- mask.nii
+          |-- RIDER-1286684383
+          |   |-- img.nii
+          |   `-- mask.nii
+          |-- ...
+          |   |-- ...
+          |   `-- ...
+
 
 ## Data Description
 1. 학습용 데이터 (/Data/...)
-   - 원본 CT 영상 (/Data/LCTSC-Test-##-###/###.nii)
-   - 폐 결절 분할 마스크 (/Data/LCTSC-Test-##-###/###-label.nii)
+   - 원본 CT 영상 (/Data/RIDER-######/img.nii)
+   - 폐 결절 분할 마스크 (/Data/RIDER-######/mask.nii)
 
 ## Code Description
 ## Training.ipynb
