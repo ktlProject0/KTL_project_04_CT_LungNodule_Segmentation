@@ -40,13 +40,13 @@
 ## Data Description
 1. 학습용 데이터 (/Data/...)
    - 원본 CT 영상 (/Data/RIDER-######/img.nii)
-   - 폐 결절 분할 마스크 (/Data/RIDER-######/mask.nii)
+   - 폐암 분할 마스크 (/Data/RIDER-######/mask.nii)
 
 ## Code Description
 ## Training.ipynb
   - 네트워크 학습 코드
 ## Evaluation.ipynb
-  - 네트워크 성능 평가 및 척추 분할 결과 가시화
+  - 네트워크 성능 평가 및 폐암 분할 결과 가시화
   - 학습완료 된 모델 가중치 (/Code/output/model_final.pth)
 ## model_torch.py
   - EfficientNet B1 UNet 아키텍쳐 빌드
