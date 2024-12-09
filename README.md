@@ -1,6 +1,6 @@
-# 04_Lung_Nodule_Segmentation
+# KTL_project_04_CT_LungNodule_Segmentation
 
-      ./KTL_project_04_CT_Lung_Nodule_Segmentation/
+      ./KTL_project_04_CT_LungNodule_Segmentation/
       |-- Code
       |   |-- .ipynb_checkpoints
       |   |   |-- 01.\ Training-checkpoint.ipynb
