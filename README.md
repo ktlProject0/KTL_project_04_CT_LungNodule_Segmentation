@@ -62,3 +62,22 @@
   - 학습용 loss 함수 코드
   - Dice loss
   - Focal loss
+
+## Prerequisites
+Before you begin, ensure you have met the following requirements:
+- Linux or macOS
+- Python 3
+- CPU or NVIDIA GPU + CUDA CuDNN
+- Other dependencies can be installed using `environment.yml`
+  
+## Getting Started
+### Installation
+
+- Clone this repo:
+```bash
+git clone https://github.com/ktlProject0/KTL_project_04_CT_LungNodule_Segmentation.git
+cd KTL_project_01_UpperEndo_Polyp_Segmentation
+```
+ - You can create a new Conda environment using `conda env create -f environment.yml`.
+
+ - 
