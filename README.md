@@ -79,5 +79,3 @@ git clone https://github.com/ktlProject0/KTL_project_04_CT_LungNodule_Segmentati
 cd KTL_project_01_UpperEndo_Polyp_Segmentation
 ```
  - You can create a new Conda environment using `conda env create -f environment.yml`.
-
- - 
